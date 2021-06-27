@@ -16,4 +16,16 @@
     @yield('content')
   {{View::make('footer')}}
 </body>
+<style>
+   .img-slider
+   {
+     height: 300px !important;
+   }
+   
+.carousel-caption 
+  {
+    color: #0dffd2ad;
+    text-shadow: 0 1px 2px #d9edf7;
+  }
+</style>
 </html>
